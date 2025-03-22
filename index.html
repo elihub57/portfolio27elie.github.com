@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr"> 
+ <head> 
+  <meta charset="utf-8"> 
+  <title>Ma page d'accueil</title>
+  <link rel="stylesheet" href="style.css">
+ </head> 
+ <body> <!-- En tête--> 
+  <header> 
+   <div id="name"> <span class="obed">Obed</span> <span class="etienne">ETIENNE</span> 
+   </div> 
+   <nav id="touche"> <a href="#accueil">Accueil</a> <a href="#apropos">À propos</a> <a href="#projets">Projets</a> <a href="#competences">Compétences</a> <a href="#contact">Contact</a> 
+   </nav> 
+  </header> <!-- Section Accueil --> 
+  <section id="accueil"> 
+   <div id="accueille"> 
+    <h1 id="messi">Je suis <span class="etienne">ETIENNE</span>, développeur en devenir, passionné par le web et le design !</h1> 
+    <img src="image/image1.jpg" width="300" height="300" alt="image à droite"> 
+    </div> 
+     <div id="bouton1"> <button><a href="#projets">Voir mes projets</a> </button>  
+   </div> 
+  </section> <!-- Section A propos --> 
+  <section id="apropos"> 
+   <h2 id="apropos-titre">À propos</h2> 
+   <div id="contenu2"> 
+    <div id="paragraphe"> 
+     <p class="phrase">Je m'appelle <span class="nom">Etienne</span>, passionné par la création de sites web modernes et interactifs</p> 
+     <p class="phrase">Je suis maintenant étudiant en <span class="nom">développement web</span>, et je cherche à améliorer mes compétences en Javascript, CSS et HTML</p> 
+     <p class="phrase">J'adore transformer mes idées en projet concrets et expérimenter avec les nouvelles technologies</p> 
+    </div> 
+    <div class="about-img"> 
+     <img src="image/imageobed.jpg" alt="image circulaire" class="circle-img"> 
+    </div> 
+   </div> <button id="bouton2"> <a href="">Telechargez mon CV</a></button> 
+  </section> <!-- Section projet --> 
+  <section id="projets" class="section projets"> 
+   <h2 id="titre-projets">Mes projets</h2> 
+   <div class="projects-contenu"> 
+    <div class="project-card"> 
+     <p>Développement d'un site e-commerce</p> <button class="bouton3"><a href="#accueil">Voir</a> </button> 
+    </div> 
+    <div class="project-card"> 
+     <p>Application mobile de graphique design</p> <button class="bouton3"><a href="#accueil">Voir</a></button> 
+    </div> 
+    <div class="project-card"> 
+     <p>Portfolio interactif sur mes projets web</p> <button class="bouton3"> <a href="#accueil">Voir</a></button> 
+    </div> 
+   </div> 
+  </section> <!-- Section 4: Mes compétences --> 
+  <section id="competences" class="section competences"> 
+   <h2>Mes Compétences</h2> 
+   <div class="skills"> 
+    <div class="skill-box"> 
+     <h3>Soft Skills</h3> 
+     <div class="skill"> 
+      <p>Gestion de projet</p> 
+      <div class="progress-bar"> 
+       <div class="progress" style="width: 80%"></div> 
+      </div> 
+     </div> 
+     <div class="skill"> 
+      <p>Résolution de problème</p> 
+      <div class="progress-bar"> 
+       <div class="progress" style="width: 70%"></div> 
+      </div> 
+     </div> 
+     <div class="skill"> 
+      <p>Adaptabilité</p> 
+      <div class="progress-bar"> 
+       <div class="progress" style="width: 90%"></div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="skill-box"> 
+     <h3>Hard Skills</h3> 
+     <div class="skill"> 
+      <p>HTML</p> 
+      <div class="progress-bar"> 
+       <div class="progress" style="width: 95%"></div> 
+      </div> 
+     </div> 
+     <div class="skill"> 
+      <p>CSS</p> 
+      <div class="progress-bar"> 
+       <div class="progress" style="width: 85%"></div> 
+      </div> 
+     </div> 
+     <div class="skill"> 
+      <p>Javascript</p> 
+      <div class="progress-bar"> 
+       <div class="progress" style="width: 45%"></div> 
+      </div> 
+     </div> 
+     <div class="skill"> 
+      <p>VS Code </p> 
+      <div class="progress-bar"> 
+       <div class="progress" style="width: 60%"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> <!-- Section 5: Contact --> 
+  <section id="contact" class="section contact">
+  <div> 
+    <h1 class="titre-contact1">Vous avez un <span class="etienne">projet en tête ?</span></h1> 
+    <h1 class="titre-contact2">N'hésitez pas à me <span class="etienne">contacter</span></h1> 
+    <div> 
+     <form id="contact-form" target="_self"> 
+      <div id="form-row"> 
+       <p class="contact-label"> <label for="prenom"></label> <input type="text" id="prenom" placeholder="Prénom" required> </p> 
+       <p class="contact-label"> <label for="ton"> </label> <input type="text" placeholder="Nom" required> </p> 
+      </div> 
+      <div id="magic"> 
+       <p class="label-sujet"> <label for="sujet"></label> <input type="text" id="sujet" placeholder="Sujet" size="45" required> </p> <textarea id="texta" rows="10" cols="49" placeholder="Ecrivez votre message" required></textarea> 
+       <div id="button4"> <button type="submit"><a href="#accueil">Envoyer</a></button> 
+       </div> 
+      </div> 
+     </form> 
+    </div> 
+   </div> 
+  </section> 
+  <footer> 
+   <div class="footer"> 
+    <p id="footer-left">Disign by <span class="etienne">ETIENNE</span> by HTML,CSS et JS - Tout doit réserver</p> 
+   </div> 
+  </footer> 
+  <script src="script.js"></script> 
+ </body>
+</html>
